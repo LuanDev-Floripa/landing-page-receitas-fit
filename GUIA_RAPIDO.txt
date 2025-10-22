@@ -1,0 +1,85 @@
+🥗 RECEITAS FIT - GUIA RÁPIDO
+==============================
+
+📁 LOCALIZAÇÃO DO PROJETO:
+  ~/Projetos/Landing-Page
+  ou
+  /root/Projetos/Landing-Page
+
+🚀 COMANDOS PRINCIPAIS:
+  
+  1. INICIAR DESENVOLVIMENTO:
+     cd ~/Projetos/Landing-Page
+     npm run dev
+  
+  2. FAZER BUILD:
+     npm run build
+  
+  3. VISUALIZAR BUILD:
+     npm run preview
+  
+  4. USAR SCRIPT AUXILIAR:
+     ./start.sh
+
+📂 ESTRUTURA DO PROJETO:
+  
+  src/
+  ├── App.jsx           - Componente principal
+  ├── main.jsx          - Entry point
+  ├── index.css         - Estilos globais
+  └── components/
+      ├── Header.jsx    - Cabeçalho fixo
+      ├── Hero.jsx      - Seção hero com CTA
+      ├── Benefits.jsx  - Cards de benefícios
+      ├── Testimonials.jsx - Depoimentos
+      ├── Checkout.jsx  - Formulário de compra
+      └── Footer.jsx    - Rodapé
+
+🎨 CARACTERÍSTICAS:
+  ✅ React 18 + Vite
+  ✅ Design responsivo
+  ✅ Animações CSS puras
+  ✅ SEO otimizado
+  ✅ Performance alta
+  ✅ Sem dependências externas pesadas
+
+🔗 ACESSOS RÁPIDOS:
+  
+  Alias do terminal:
+  - 'projetos' → vai para ~/Projetos
+  - 'landing'  → vai para ~/Projetos/Landing-Page
+
+💡 PRÓXIMOS PASSOS:
+  
+  1. Testar o projeto:
+     npm run dev
+  
+  2. Abrir no navegador:
+     http://localhost:5173
+  
+  3. Customizar conforme necessário
+  
+  4. Fazer deploy (Vercel, Netlify, etc.)
+
+📝 NOTAS IMPORTANTES:
+  
+  - O projeto está no diretório HOME do Termux
+  - Node.js funciona perfeitamente aqui
+  - Todas as dependências estão instaladas
+  - Build de produção já testado e funcionando
+
+🆘 AJUDA:
+  
+  Se precisar reinstalar dependências:
+  npm install
+  
+  Se houver erro de permissão:
+  O projeto já está no local correto (~/Projetos)
+  
+  Para limpar e reinstalar:
+  rm -rf node_modules package-lock.json
+  npm install
+
+🎉 TUDO PRONTO!
+  O projeto está 100% funcional e pronto para uso!
+
